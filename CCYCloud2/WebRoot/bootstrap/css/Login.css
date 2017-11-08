@@ -1,0 +1,78 @@
+.login-container{
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-image: url("../../img/login_back.png");
+	background-size:cover;
+	margin:auto;
+}
+body{
+	text-align: center;
+}
+.divlogin-message{
+	width: 425px;
+	height: 516px; 
+	background-image: url('../../img/login_div_back.png');
+	position: absolute;
+	top: 152px;
+	left: 292px;
+}
+.login-logo{
+	width: 88px;
+	height: 69px;
+	background-image: url('../../img/login-logo.png');
+	background-repeat: no-repeat;
+    display: inline-block;
+}
+.logo-text{
+	width: 79px;
+	height: 28px;
+	background-image: url('../../img/login-logo-text.png');
+	background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 26px;
+}
+.login-ul{
+	list-style: outside none none;
+    margin-left: -40px;
+    margin-top: 80px;
+}
+.userID-span{
+	margin-top: 56px;
+}
+.password-span{
+	margin-top:26px;
+}
+.userID-span,.password-span{
+	background-image: url('../../img/login-input-back.png');
+	width: 317px;
+	height: 58px;
+	color: #FFFFFF;
+	font-size: 21;
+	display: inline-block;
+	padding-left: 10px;
+}
+.userID-span>input,.password-span>input{
+	background:none;
+	border: none;
+	height: 58px;
+	width: 180px;
+}
+.login-loginbtn{
+	width: 282px;
+	height: 43px;
+	border: none;
+	background-image: url('../../img/login-loginbtn-back.png');
+	border-radius: 25px;
+	margin-top: 48px;
+	color: #FFFFFF;
+	font-size: 21;
+}
+.forgotPWD{
+    left: 300px;
+    position: absolute;
+    top: 424px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}

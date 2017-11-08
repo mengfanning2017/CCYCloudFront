@@ -1,0 +1,547 @@
+.navbar-header {
+    width: 100%;
+    	
+}
+.navbar-inverse {
+    background-color: #ffffff;
+    border-color: #080808;
+    box-shadow: 3px 4px 2px #D8D8D8;
+}
+body{
+	background-color: #F2F2F2;
+	text-align: center;
+}
+.container-main{
+	width: 968px;
+	
+	min-height: 300px;
+}
+.space-btn-group{
+	clear: both;
+	margin-top: 30px;
+	margin-left: -10px;
+	border: none;
+}
+.space-btn-group li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	width: 90px;
+	height: 38px;
+	background-color: #FE8664;
+	font-size: 13px;
+	padding-top: 11px;
+	border-radius: 3px;
+	box-shadow: 3px 4px 2px #D8D8D8;
+	font-weight: bold;
+	word-spacing:8px; 
+	letter-spacing: 1px;
+}
+.space-btn-group li a{
+	text-decoration:none;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+}
+
+.space-btn-group li a:active,.space-btn-group li a:focus,.space-btn-group li a:hover{
+	text-decoration:none;
+	background-color: #8DD13F;
+	cursor: pointer;
+	border: none;
+	color: #FFFFFF;
+}
+.space-btn-group li:active,.space-btn-group li:focus,.space-btn-group li:hover{
+	text-decoration:none;
+	background-color: #8DD13F;
+	cursor: pointer;
+	border: none;
+	color: #FFFFFF;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	text-decoration:none;
+	background-color: #8DD13F;
+	cursor: pointer;
+	border: none;
+	color: #FFFFFF;
+}
+.nav-tabs > li.active{
+	background-color: #8DD13F;
+}
+
+.content-header{
+	background-color: #8DD13F;
+	border-radius: 3px;
+	box-shadow: 3px 4px 2px #D8D8D8;
+	width: 968px;
+	height:40px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.header-text{
+	float: left;
+	color: #FFFFFF;
+	margin-left: 18px;
+	margin-top:10px;
+	word-spacing:8px; 
+	letter-spacing: 2px;
+}
+
+.book-header{
+	width: 930px;
+	height: 25px;
+	margin-left: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #7E7E7E;
+	display: block;
+	padding-top: 5px;
+}
+.bookname{
+	float: left;
+}
+.book{
+	background-color: #FFFFFF;
+	margin-bottom: 25px;
+	padding-top: 15px;
+	border-radius: 3px;
+	box-shadow: 3px 4px 2px #D8D8D8;
+}
+.config{
+
+	float: right;
+}
+.config span{
+	margin-left:15px;
+}
+.book-content{
+	height : 80px;
+	display: block;
+}
+.bookcontent{
+	clear: both;
+	width: 930px;
+}
+.bookcontent li{
+	list-style: none;
+	max-width: 500px;
+	float: left;
+	text-align: left;
+	margin-top: 12px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C6C6C6;
+	min-width: 150px;
+}
+.company-name{
+	width :300px;
+}
+.create-month{
+	width:200px;
+}
+.account-rule{
+	width: 200px;
+}
+.manager{
+	width:100px;
+}
+.book-info{
+	width: 968px;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	min-height: 300px;
+	padding-bottom: 20px;
+}
+.book-info-content .row{
+	width: 968px;
+	margin-top: 10px;
+}
+.shadow{
+	box-shadow: 3px 4px 2px #D8D8D8;
+}
+.book-info-content{
+	margin-top: 20px;
+}
+.book-info-content hr{
+	width: 900px;
+}
+.book-info-content .button-row{
+	margin-top: 20px;	
+}
+.save-book{
+	width:100px;
+	float: left;
+}
+.save-book button{
+		background-color: #FF9800;
+		border-color: #ff7c3e;
+		color: #FFFFFF;
+}
+.save-book button:HOVER,.save-book button:focus,.save-book button:active,.save-book button:visited {
+	background-color: #FF9800;
+	border-color: #ffb18c;
+	color: #FFFFFF;
+}
+.book-account-rule{
+	display: inline-block;
+	width:150px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+.book-info-content .row input[type='text']{
+	width:162px;
+	margin-left: 5px;
+}
+.book-info-content > .row>.col-md-1{
+	width:13.33%;
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 2px;
+}
+.book-info-content > .row>.col-md-3{
+	width: 20%;
+	padding-left: 0px;
+	text-align: left;
+}
+.book-info-content > .row>.col-md-4{
+	text-align: right;
+	padding-right: 50px;
+}
+.book-info-user{
+	margin-top: 20px;
+}
+.ul-bookmanager li,.ul-bookuser li{
+	list-style: none;
+	width: 70px;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #1d1d1d;
+}
+.lbl-manager{
+	height: 30px;
+	padding-top: 10px;
+	float: right;
+}
+
+.book-info-user label,.book-info-user li{
+	color: #b0b0b0;
+	
+}
+
+
+.lbl-manager .icon-user{
+	margin-right: 10px;
+	color: #ff8000;
+}
+
+.ul-bookmanager a:HOVER,.ul-bookuser a:HOVER,
+.ul-bookmanager a:active,.ul-bookuser a:active,
+.ul-bookmanager a:focus,.ul-bookuser a:focus{
+	text-decoration: none;
+}
+
+.ul-bookmanager .icon,.ul-bookuser .icon{
+	margin-left: 5px;
+	color: #dedede;
+	cursor: pointer;
+}
+
+.ul-bookmanager .icon:HOVER,.ul-bookuser .icon:HOVER,
+.ul-bookmanager .icon:FOCUS,.ul-bookuser .icon:FOCUS,
+.ul-bookmanager .icon:ACTIVE,.ul-bookuser .icon:ACTIVE{
+	margin-left: 5px;
+	color: #939393;
+	cursor: pointer;
+}
+
+.save-book-user{
+	margin-top: 20px;
+}
+.save-book-user button{
+	background-color: #FF9800;
+	color: #FFFFFF;
+}
+
+.save-book-user button:hover,.save-book-user button:FOCUS,.save-book-user button:ACTIVE{
+	background-color: #f29200;
+	color: #FFFFFF;
+}
+.lbl-user .icon-user{
+	margin-right: 10px;
+	color: #80ff00;
+}
+.lbl-user{
+	height: 30px;
+	padding-top: 10px;
+	float: right;
+}
+
+.ul-bookmanager li{
+	height: 25px;
+}
+.ul-bookmanager{
+	margin-left: -50px;
+}
+.save-book-user button{
+	width:100px;
+	float: left;
+	margin-left: 61px;
+}
+
+.user-management, .management{
+	width: 968px;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	min-height: 300px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.user-management .content-header{
+	margin-top:0px;
+}
+.user-management-table{
+	width: 860px;
+	margin: auto;
+}
+.user-management-table .table ,.user-management-table .table th, .user-management-table .table td{
+	margin-top: 20px;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	
+}
+.addUserBtn,.delUserBtn{
+	position: absolute;
+	border: 1px solid #FFA500;
+	border-radius: 50%;
+	width: 25px;
+	height:25px;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: #FFA500;
+}
+.addUserBtn:HOVER,.delUserBtn:HOVER,.addUserBtn:active,.delUserBtn:ACTIVE,.addUserBtn:FOCUS,.delUserBtn:FOCUS{
+	background-color: #ffb01e;
+	border: 1px solid #ffb01e;
+}
+
+.sendMessage{
+	float: right;
+	margin-right: 65px;
+	background-color: #FE8664;
+	color: #ffffff;
+}
+
+.sendMessage:HOVER,.sendMessage:ACTIVE,.sendMessage:FOCUS{
+
+	color: #ffffff;
+}
+
+
+.returnWorkSpace{
+	background-color: #FE8664;
+	color: #FFFFFF;
+	margin-left: 548px;
+	
+}
+
+.returnWorkSpace:FOCUS,.returnWorkSpace:ACTIVE,.returnWorkSpace:HOVER{
+	background-color: #fe987a;
+	color: #f6f6f6;
+	
+}
+.book-management-table{
+	width: 860px;
+	margin: 40px auto;
+
+}
+.book-management .content-header {
+    margin-top: 0px;
+}
+.book-management-table .table th,.book-management-table .table td,.book-management-table .table tr{
+	text-align: center;
+	border: 1px solid #DDDDDD;
+}
+
+.book-management-table .table a{
+	cursor: pointer;
+}
+.book-management-table .table a:FOCUS,.book-management-table .table a:HOVER,.book-management-table .table a:ACTIVE{
+	cursor: pointer;
+	text-decoration:none;
+	color: #71a9d7;
+}
+.changeAuth-model{
+	width: 900px;	
+	border-radius: 10px;
+}
+.modal-header-changeAuth{
+	background-color:#8DD13F;
+	text-align: left;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+.modal-content{
+	border-radius: 10px;
+}
+
+span.userImage-userinfo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	content: "";
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid;
+}
+.userinfo-list-ul{
+	width: 300px;
+	list-style: none;
+	margin-top: 20px;
+	margin-left: -55px;
+}
+.userinfo-list-ul li{
+	width:100px;
+	float: left;
+	margin-bottom: 5px;
+}
+.userinfo-list-ul .title-li{
+	text-align: right;
+	font-weight: bold;
+	color: #837e7e;
+}
+.userinfo-list-ul .detail-li{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.user-info-changeAuth ,.user-list-changeAuth {
+	background-color: #F2F2F2;
+	width: 850px;
+	border-radius: 5px;
+	margin: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;	
+}
+.user-list-ul{
+	width: 100%;
+	list-style: none;
+	margin-top: 20px;
+}
+.user-list-ul li{
+	float: left;
+	width: 125px;
+	margin-bottom: 15px;
+}
+.changeAuth-ico{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+.changeAuth-ico-span{
+	background-image: url('http://localhost:8080/FrontPro/img/change-auth-user.png');
+	display: block;
+	width: 39px;
+	height: 42px;
+	margin: auto;
+	margin: 15px auto;
+}
+
+.change-auth-save,.change-auth-cancel{
+	background-color: #f39b13;
+	color: #FFFFFF;
+	width: 100px;
+}
+.change-auth-save:ACTIVE,.change-auth-save:FOCUS,.change-auth-save:HOVER,
+.change-auth-cancel:ACTIVE,.change-auth-cancel:FOCUS,.change-auth-cancel:HOVER{
+	color: #FFFFFF;
+}
+.user-list-ul li input[type="radio"]{
+	margin-right: 5px;	
+}
+
+.chose-company{
+	width: 200px;
+	text-align: left;
+	padding-left: 10px;
+}
+.btn-chose-company{
+	background-color: #FE8664;
+	border: none;
+	float: right;
+}
+.select-company-panel{
+	width: 70%;
+}
+.select-company-header{
+	background-color: 	#8DD13F;
+	color: #FFFFFF;
+	text-align: left;
+	border-radius: 5px;
+}
+.select-company-body{
+	margin-bottom: 50px;
+}
+.chose-company-save{
+	width: 80px;
+	margin-right: 60px;
+}
+.company-address-div{
+	border-radius: 5px;
+	width: 600px;
+}
+.company-address-div .panel-heading{
+	background-color: #8DD13F;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	text-align: left;
+	
+}
+
+.pcc-foot{
+	padding: 0 25px 15px 0;
+}
+.btn-ppc-ok{
+	width: 100px;
+	background-color: #FE8664;
+	border: none;
+	float: right;
+}
+.btn-ppc-ok:HOVER,.btn-ppc-ok:ACTIVE,.btn-ppc-ok:FOCUS{
+	background-color: #fea88f;
+}
+.book-companyAddress{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid;
+	font-size: 10px;
+	width: 158px;
+}
+.needs-icon{
+	color: #fd5015;
+	margin-right: 5px;
+}
+.ul-bookuser>.color-green,.ul-bookuser>.color-green>span{
+	color: #44d634;
+}
+.ul-bookmanager>.color-red,.ul-bookmanager>.color-red>span{
+	color:#ec321e;
+}

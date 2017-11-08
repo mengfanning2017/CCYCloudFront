@@ -1,0 +1,14 @@
+.setting_icon {background-image: url("setting_icon.png"); display: inline-block;  margin-right: 5px;}
+.setting_icon_acvalue {background-position: -0px -0px; width: 13px; height: 15px; float: left;}
+.setting_icon_edit {background-position: -15px -0px; width: 13px; height: 15px; float: left;}
+.setting_icon_addnext {background-position: -30px -0px; width: 14px; height: 15px; float: left;}
+.setting_icon_locked {background-position: -46px -0px; width: 11px; height: 14px; float: right;margin-right: 7px;}
+.setting_icon_showmenu {background-position: -59px -0px; width: 17px; height: 10px; margin-top: 4px;float: right;}
+.setting_icon_addAllNext {background-position: -77px -0px; width: 15px; height: 15px;float: left; }
+.setting_icon_auxiliary {background-position: -94px -0px; width: 20px; height: 18px;  float: left; margin-left: 5px;}
+.setting_icon_unit {background-position: -116px -0px; width: 31px; height: 18px; float: left;}
+.setting_icon_currency {background-position: -149px -0px; width: 20px; height: 18px; float: left;}
+.setting_icon_showmenu:HOVER {
+	cursor: pointer;
+}
+

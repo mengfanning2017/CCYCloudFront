@@ -1,0 +1,931 @@
+ul ,li{
+	list-style: none;
+}
+.financial {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.viewHeader {
+    height: 30px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.viewHeader .viewTitle {
+    color: #3b3c3c;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+.voucherListView .search-container {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+.voucherListView .search-container .select-search-type {
+    background-color: #93d200;
+    border: 1px solid #93d200;
+    border-radius: 3px 0 0 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 66px;
+    padding: 0 20px 0 16px;
+    position: relative;
+    text-align: center;
+}
+.fl {
+    float: left;
+}
+.voucherListView .search-container .select-search-type {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.voucherListView .search-container .select-search-type .select-icon {
+    height: 7px;
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    width: 14px;
+}
+.down-icon-w {
+    background: rgba(0, 0, 0, 0) url("../../img/background.png?v=1507880572321") no-repeat scroll -335px -233px;
+}
+.voucherListView .search-container .search-input-wrap {
+    background-color: #ffffff;
+    border-color: #b5b5b5 #b5b5b5 #b5b5b5 -moz-use-text-color;
+    border-image: none;
+    border-radius: 0 3px 3px 0;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 28px 0 6px;
+    position: relative;
+    width: 200px;
+}
+.voucherListView .search-container .search-input-wrap .search-input {
+    border: medium none;
+    display: none;
+    font-size: 12px;
+    width: 100%;
+}
+.voucherListView .search-container .search-input-wrap .search-input .dijitTextBox {
+    border: medium none;
+    height: 30px;
+    vertical-align: top;
+}
+table.chanjetWidget {
+    border-collapse: separate !important;
+}
+table.chanjetWidget {
+    border-spacing: 0 !important;
+    box-sizing: border-box !important;
+}
+.dijitTextBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b5b5b5;
+    color: #464646;
+    height: auto;
+    padding: 2px;
+}
+.chanjetTextBox {
+}
+.chanjetWidget, .chanjetWidget input {
+    color: #4f5254;
+    font: 12px Microsoft YaHei;
+}
+.chanjetTextBox {
+    width: 150px;
+}
+.dijitTextBox {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    height: 24px;
+    line-height: 18px;
+}
+ .dijitSelect .dijitButtonContents, .dijitSelect, .dijitTextBox {
+}
+table.dijitInline {
+    box-sizing: content-box;
+    display: inline-table;
+}
+.voucherListView .search-container .search-input-wrap .search-input .dijitTextBox .containerTd {
+    padding-left: 0 !important;
+}
+.containerTd {
+    height: auto !important;
+    line-height: 18px !important;
+    padding: 0 0 0 5px !important;
+}
+.dijitValidationTextBox .dijitValidationContainer {
+    display: none;
+}
+.dijitTextBox .dijitSpinnerButtonContainer, .dijitTextBox .dijitArrowButtonContainer, .dijitValidationTextBox .dijitValidationContainer {
+    float: right;
+    text-align: center;
+}
+.dijitReset {
+    border: 0 none;
+    color: inherit;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+.dijitTextBox input {
+    color: #464646;
+}
+.chanjetWidget input {
+    line-height: 18px;
+}
+.chanjetWidget, .chanjetWidget input {
+    color: #4f5254;
+    font: 12px Microsoft YaHei;
+}
+.chanjetTextBox input {
+}
+.dijitSelect input.dijitInputField, .dijitTextBox input.dijitInputField {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.dijitInputField {
+    padding: 0;
+}
+input[type="text"], input[type="password"] {
+    border-radius: 1px;
+    font-family: "Microsoft YaHei","微软雅黑","Apple LiGothic Medium ","宋体";
+    font-size: 12px;
+}
+.dijitSelect input, .dijitTextBox input {
+    float: left;
+}
+input, select {
+    vertical-align: middle;
+}
+.chanjetTextBox .dijitInputContainer {
+    padding: 3px 0 !important;
+}
+.dijitInputField {
+    padding: 0;
+}
+.dj_ie6 .dijitComboBox .dijitInputContainer, .dijitInputContainer {
+    float: none !important;
+    overflow: hidden;
+    position: relative;
+}
+.chanjetTextBox .dijitInputContainer input {
+    height: 18px !important;
+}
+.dijitTextBox input {
+    color: #464646;
+}
+.chanjetWidget input {
+    line-height: 18px;
+}
+.chanjetWidget,.chanjetWidget input {
+    color: #4f5254;
+    font: 12px Microsoft YaHei;
+}
+.chanjetTextBox input {
+}
+.dijitInputContainer input {
+    margin: 0 0.1em;
+}
+input[type="text"], input[type="password"] {
+    border-radius: 1px;
+    font-family: "Microsoft YaHei","微软雅黑","Apple LiGothic Medium ","宋体";
+    font-size: 12px;
+}
+.dijitSelect input, .dijitTextBox input {
+    float: left;
+}
+.dijitInputInner {
+    background-color: transparent !important;
+    border: 0 none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+}
+.chanjetWidget .dijitPlaceHolder {
+    line-height: 12px !important;
+}
+.chanjetWidget .dijitPlaceHolder {
+    font: 12px Microsoft YaHei;
+    text-align: center;
+    top: 6px;
+}
+.dijitPlaceHolder {
+    color: #b5b5b5;
+    font-size: 14px;
+}
+.dijitPlaceHolder {
+    color: #9ba7be;
+    font-style: normal;
+}
+.dijitInputField {
+    padding: 0;
+}
+.dijitPlaceHolder {
+    color: #aaaaaa;
+    font-style: italic;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.voucherListView .search-container .search-input-wrap .search-input {
+    border: medium none;
+    display: none;
+    font-size: 12px;
+    width: 100%;
+}
+.voucherListView .search-container .search-input-wrap .search-input .dijitTextBox {
+    border: medium none;
+    height: 30px;
+    vertical-align: top;
+}
+table.chanjetWidget {
+    border-collapse: separate !important;
+}
+table.chanjetWidget {
+    border-spacing: 0 !important;
+    box-sizing: border-box !important;
+}
+.dijitTextBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b5b5b5;
+    color: #464646;
+    height: auto;
+    padding: 2px;
+}
+.chanjetTextBox {
+}
+.chanjetWidget, .chanjetWidget input {
+    color: #4f5254;
+    font: 12px Microsoft YaHei;
+}
+.chanjetTextBox {
+    width: 150px;
+}
+.dijitTextBox {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    height: 24px;
+    line-height: 18px;
+}
+.dijitSelect .dijitButtonContents, .dijitSelect, .dijitTextBox {
+}
+table.dijitInline {
+    box-sizing: content-box;
+    display: inline-table;
+}
+.voucherListView .search-container .search-input-wrap .search-btn {
+    background: rgba(0, 0, 0, 0) url("../../img/search-but.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 19px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    width: 19px;
+}
+.voucherListView .search-container .search-more-panel {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #bbbbbb;
+    display: none;
+    position: absolute;
+    top: 36px;
+    width: 337px;
+    z-index: 1;
+}
+.voucherListView .search-container .search-more-panel .search-more-table .title {
+    font-size: 14px;
+    padding: 10px 0 10px 10px;
+    width: 66px;
+}
+table.chanjetWidget {
+    border-collapse: separate !important;
+}
+table.chanjetWidget {
+    border-spacing: 0 !important;
+    box-sizing: border-box !important;
+}
+.dijitTextBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b5b5b5;
+    color: #464646;
+    height: auto;
+    padding: 2px;
+}
+.chanjetTextBox {
+}
+.chanjetWidget, .chanjetWidget input {
+    color: #4f5254;
+    font: 12px Microsoft YaHei;
+}
+.chanjetTextBox {
+    width: 150px;
+}
+.dijitTextBox {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    height: 24px;
+    line-height: 18px;
+}
+.dijitSelect .dijitButtonContents, .dijitSelect, .dijitTextBox {
+}
+.financial .viewHeader .greenBtn, .financial .viewHeader .greenWhiteBtn {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.financial .greenBtn, .financial .greenWhiteBtn, .financial .greenBtnDisable {
+    display: inline-block;
+    width: 98px;
+}
+.greenWhiteBtn {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #86bf02;
+    border-radius: 3px;
+    color: #93d200;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 16px;
+    text-align: center;
+    width: 78px;
+}
+.financial .viewHeader .fnBtns {
+    bottom: -4px;
+    position: absolute;
+    right: 0;
+}
+.viewHeader .rightContent {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    top: -16px;
+}
+
+.financial .viewHeader .fnBtns .greenBtn.multi {
+    background-color: transparent;
+    color: #93d200;
+    text-align: left;
+    width: 132px;
+}
+.voucherListView .viewHeader .fnBtns .greenBtn.multi {
+    background-color: transparent;
+    color: #93d200;
+    padding: 0;
+    text-align: left;
+    width: 132px;
+}
+.financial .viewHeader .fnBtns .greenWhiteBtn, .financial .viewHeader .fnBtns .greenBtn {
+    position: relative;
+}
+.financial .viewHeader .fnBtns li {
+    margin-left: 6px;
+    position: relative;
+}
+.voucherListView .viewHeader .fnBtns .brokenNodes {
+    float: left;
+}
+.voucherListView .viewHeader .fnBtns .greenBtn.disable {
+    background: #cdcdcd none repeat scroll 0 0;
+    border: 1px solid #cdcdcd;
+    cursor: not-allowed;
+}
+.financial .mainContainer {
+    background: #ffffff none repeat scroll 0 0;
+    padding-bottom: 10px;
+    position: relative;
+    transform: translateZ(0px);
+    z-index: 99;
+    
+}
+.mainContainer ul,.mainContainer li,.mainContainer span{
+	font-size: 12px;
+}
+.voucherListView .mainContainer, .invoice .mainContainer, .invoiceInputDialogPanel .mainContainer {
+    padding: 0 0 1px;
+}
+.mainContainer {
+    position: relative;
+    font-size: 12px;
+}
+.monthLine.single {
+    padding-left: 100px;
+}
+.monthLine {
+    background-color: white;
+    height: 48px;
+    padding-left: 200px;
+    position: relative;
+}
+.greenBtn {
+    background: #93d200 none repeat scroll 0 0;
+    border: 1px solid #93d200;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 16px;
+    text-align: center;
+    width: 78px;
+}
+.greenBtn:HOVER{
+	background:#86bf02 none repeat scroll 0 0;
+	border: 1px solid #86bf02;
+}
+.monthLine .monthList {
+    border-bottom: 1px solid #ddd;
+    height: 28px;
+    list-style: outside none none;
+    margin: 0 20px;
+    padding: 0;
+}
+.monthLine .monthList li {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    width: 7.69%;
+}
+.monthLine .monthList li .month-name-top {
+    color: #333333;
+    font-size: 12px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -15px;
+    z-index: 10;
+}
+.monthLine.single .monthList .monthItem {
+    margin-right: 40px;
+}
+.monthLine .monthList li a.prev_disabled_btn {
+    background-image: url("../../img/monthLine_prev_disabled.png");
+    cursor: not-allowed;
+    left: -16px;
+}
+.monthLine .monthList li a {
+    background: rgba(0, 0, 0, 0) url("../../img/monthLine_bg_normal.png") no-repeat scroll center center / 100% auto;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 16px;
+}
+.monthLine .monthList li a.disable {
+    background-image: url("../../img/monthLine_bg_disabled.png");
+    color: #bbb;
+    cursor: not-allowed;
+}
+.monthLine .monthList li a.active {
+    background-image: url("../../img/monthLine_bg_selected.png");
+    color: white;
+}
+.monthLine .monthList li.month_list_last {
+    position: absolute;
+    right: 0;
+    width: 20px;
+}
+.monthLine .monthList li {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    width: 7.69%;
+}
+/* .monthLine .monthList li a.next_disabled_btn {
+    background-image: url("../../img/monthLine_next_disabled.png");
+    cursor: not-allowed;
+} */
+.monthLine .monthDateBox {
+    left: 10px;
+    margin: 8px 0;
+    position: absolute;
+    top: 5px;
+}
+.monthLine .monthPick {
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 3px;
+    padding: 0 18px 0 2px;
+    position: relative;
+    text-align: center;
+    width: 65px;
+}
+.monthLine .yearPanel {
+    background-color: white;
+    box-shadow: 0 2px 4px 1px #ddd;
+    display: none;
+    position: absolute;
+    right: -27px;
+    top: 45px;
+    width: 135px;
+    z-index: 100;
+}
+.voucherListView .mainContainer .voucherGrid, 
+.invoice .mainContainer .voucherGrid,
+.invoiceInputDialogPanel .mainContainer .voucherGrid, 
+.voucherListView .mainContainer .invoiceGrid,
+.invoice .mainContainer .invoiceGrid, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid{
+	position: relative;
+}
+.voucherListView .mainContainer .voucherGrid .selectHead, 
+.invoice .mainContainer .voucherGrid .selectHead, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .selectHead {
+    background: #3ec8dd none repeat scroll 0 0;
+    padding-left: 62px;
+    position: relative;
+}
+.voucherListView .mainContainer .voucherGrid .selectHead .selectAll, 
+.invoice .mainContainer .voucherGrid .selectHead .selectAll, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .selectHead .selectAll {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 95px;
+    margin: 0 0 0 -38px;
+}
+.voucherListView .mainContainer .voucherGrid .selectHead .selectAll li, 
+.invoice .mainContainer .voucherGrid .selectHead .selectAll li,
+.invoiceInputDialogPanel .mainContainer .voucherGrid .selectHead .selectAll li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.voucherListView .mainContainer .voucherGrid .gridHeader, 
+.invoice .mainContainer .voucherGrid .gridHeader, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .gridHeader, 
+.voucherListView .mainContainer .invoiceGrid .gridHeader, 
+.invoice .mainContainer .invoiceGrid .gridHeader, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .gridHeader {
+    background-color: #3ec8dd;
+    border-spacing: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    right: 0;
+    width: 100%;
+}
+.voucherListView .mainContainer .voucherGrid .gridHeader li, 
+.invoice .mainContainer .voucherGrid .gridHeader li, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .gridHeader li, 
+.voucherListView .mainContainer .invoiceGrid .gridHeader li, 
+.invoice .mainContainer .invoiceGrid .gridHeader li, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .gridHeader li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.voucherListView .mainContainer .tipMessage, 
+.invoice .mainContainer .tipMessage, 
+.invoiceInputDialogPanel .mainContainer .tipMessage {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.voucherListView .mainContainer .voucherGrid .vGridScroller, 
+.invoice .mainContainer .voucherGrid .vGridScroller, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .vGridScroller, 
+.voucherListView .mainContainer .invoiceGrid .vGridScroller, 
+.invoice .mainContainer .invoiceGrid .vGridScroller, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .vGridScroller, 
+.voucherListView .mainContainer .voucherGrid .iGridScroller, 
+.invoice .mainContainer .voucherGrid .iGridScroller, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .iGridScroller, 
+.voucherListView .mainContainer .invoiceGrid .iGridScroller, 
+.invoice .mainContainer .invoiceGrid .iGridScroller, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .iGridScroller {
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.voucherListView .mainContainer .voucherGrid .vGridContainer, 
+.invoice .mainContainer .voucherGrid .vGridContainer, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .vGridContainer, 
+.voucherListView .mainContainer .invoiceGrid .vGridContainer, 
+.invoice .mainContainer .invoiceGrid .vGridContainer, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .vGridContainer, 
+.voucherListView .mainContainer .voucherGrid .iGridContainer, 
+.invoice .mainContainer .voucherGrid .iGridContainer, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .iGridContainer, 
+.voucherListView .mainContainer .invoiceGrid .iGridContainer, 
+.invoice .mainContainer .invoiceGrid .iGridContainer, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .iGridContainer {
+    background-color: #e7eaec;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard, 
+.invoice .mainContainer .voucherGrid .voucherCard, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard, 
+.voucherListView .mainContainer .invoiceGrid .voucherCard, 
+.invoice .mainContainer .invoiceGrid .voucherCard, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard, 
+.voucherListView .mainContainer .voucherGrid .invoiceCard, 
+.invoice .mainContainer .voucherGrid .invoiceCard, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard, 
+.voucherListView .mainContainer .invoiceGrid .invoiceCard, 
+.invoice .mainContainer .invoiceGrid .invoiceCard, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.voucherGrid>.vGridScroller>.vGridContainer>.voucherCard:HOVER{
+	border: 1px solid #52c1c2;
+}
+.clearfix {
+    display: block;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .select, 
+.invoice .mainContainer .voucherGrid .voucherCard .select, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .select, 
+.voucherListView .mainContainer .invoiceGrid .voucherCard .select, 
+.invoice .mainContainer .invoiceGrid .voucherCard .select, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .select {
+    vertical-align: middle;
+    width: 62px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .select input, 
+.invoice .mainContainer .voucherGrid .voucherCard .select input, 
+.invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .select input, 
+.voucherListView .mainContainer .invoiceGrid .voucherCard .select input, 
+.invoice .mainContainer .invoiceGrid .voucherCard .select input, 
+.invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .select input {
+    margin: 10px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .content, .invoice .mainContainer .voucherGrid .voucherCard .content, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .content, .voucherListView .mainContainer .invoiceGrid .voucherCard .content, .invoice .mainContainer .invoiceGrid .voucherCard .content, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .content {
+    margin-left: 62px;
+    margin-right: 10px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader {
+    border-left: 1px solid #f2f2f2;
+    position: relative;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .dateLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .dateLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .dateLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .dateLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .dateLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .dateLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .dateLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .dateLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .dateLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .dateLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .dateLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .dateLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .voucherNoLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .voucherNoLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .voucherNoLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .voucherNoLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceqp, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceqp, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceqp, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceqp, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceqp, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceqp, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceqp, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceqp, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceqp, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceqp, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceqp, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceqp {
+    float: left;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .voucherNoLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .voucherNoLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .voucherNoLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .voucherNoLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .voucherNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .voucherNoLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .accessoryNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .accessoryNoLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceNoLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceNoLabel, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .invoiceProviderLabel, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceProviderLabel, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .invoiceProviderLabel {
+    margin-left: 18px;
+}
+.voucherListView .audit-status-tag {
+    float: left;
+    margin-left: 5px;
+}
+.voucherListView .audit-status-tag > i {
+    display: inline-block;
+    height: 16px;
+    vertical-align: text-bottom;
+    width: 50px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .rowBtns, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .rowBtns, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .rowBtns, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .rowBtns, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .rowBtns, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .rowBtns, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .rowBtns, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .rowBtns, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .rowBtns, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .rowBtns, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .rowBtns, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .rowBtns {
+    display: none;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .printBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .printBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .printBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .printBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .printBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .printBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .printBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .printBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .printBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .printBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .printBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .printBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .delBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .delBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .delBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .delBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .delBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .delBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .delBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .delBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .delBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .delBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .delBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .delBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .editVoucherBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .editVoucherBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .editVoucherBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .editVoucherBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .editVoucherBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .editVoucherBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .editVoucherBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .editVoucherBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .editVoucherBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .editVoucherBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .editVoucherBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .editVoucherBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .auditVoucherBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .auditVoucherBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .auditVoucherBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .auditVoucherBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .auditVoucherBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .auditVoucherBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .auditVoucherBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .auditVoucherBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .auditVoucherBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .auditVoucherBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .auditVoucherBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .auditVoucherBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .unauditVoucherBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .unauditVoucherBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .unauditVoucherBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .unauditVoucherBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .unauditVoucherBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .unauditVoucherBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .unauditVoucherBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .unauditVoucherBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .unauditVoucherBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .unauditVoucherBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .unauditVoucherBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .unauditVoucherBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .editDisabled, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .editDisabled, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .editDisabled, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .editDisabled, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .editDisabled, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .editDisabled, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .editDisabled, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .editDisabled, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .editDisabled, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .editDisabled, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .editDisabled, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .editDisabled, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .delDisabled, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .delDisabled, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .delDisabled, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .delDisabled, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .delDisabled, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .delDisabled, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .delDisabled, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .delDisabled, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .delDisabled, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .delDisabled, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .delDisabled, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .delDisabled, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .editInvoiceBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .editInvoiceBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .editInvoiceBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .editInvoiceBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .editInvoiceBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .editInvoiceBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .editInvoiceBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .editInvoiceBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .editInvoiceBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .editInvoiceBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .editInvoiceBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .editInvoiceBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .insertBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .insertBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .insertBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .insertBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .insertBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .insertBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .insertBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .insertBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .insertBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .insertBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .insertBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .insertBtn, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .insertDisabled, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .insertDisabled, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .insertDisabled, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .insertDisabled, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .insertDisabled, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .insertDisabled, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .insertDisabled, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .insertDisabled, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .insertDisabled, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .insertDisabled, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .insertDisabled, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .insertDisabled, .voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .annotateBtn, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .annotateBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .annotateBtn, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .annotateBtn, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .annotateBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .annotateBtn, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .annotateBtn, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .annotateBtn, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .annotateBtn, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .annotateBtn, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .annotateBtn, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .annotateBtn {
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 26px;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+.voucherGrid .voucherCard .annotateBtn {
+    background: rgba(0, 0, 0, 0) url("../../img/background.png?v=1507880572321") no-repeat scroll -64px -387px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .cardHeader .annotateImg, .invoice .mainContainer .voucherGrid .voucherCard .cardHeader .annotateImg, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .cardHeader .annotateImg, .voucherListView .mainContainer .invoiceGrid .voucherCard .cardHeader .annotateImg, .invoice .mainContainer .invoiceGrid .voucherCard .cardHeader .annotateImg, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .cardHeader .annotateImg, .voucherListView .mainContainer .voucherGrid .invoiceCard .cardHeader .annotateImg, .invoice .mainContainer .voucherGrid .invoiceCard .cardHeader .annotateImg, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard .cardHeader .annotateImg, .voucherListView .mainContainer .invoiceGrid .invoiceCard .cardHeader .annotateImg, .invoice .mainContainer .invoiceGrid .invoiceCard .cardHeader .annotateImg, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard .cardHeader .annotateImg {
+    background: rgba(0, 0, 0, 0) url("../../img/background.png/annotateImg.png") no-repeat scroll 0 0;
+    display: none;
+    height: 31px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard table, .invoice .mainContainer .voucherGrid .voucherCard table, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard table, .voucherListView .mainContainer .invoiceGrid .voucherCard table, .invoice .mainContainer .invoiceGrid .voucherCard table, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard table, .voucherListView .mainContainer .voucherGrid .invoiceCard table, .invoice .mainContainer .voucherGrid .invoiceCard table, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard table, .voucherListView .mainContainer .invoiceGrid .invoiceCard table, .invoice .mainContainer .invoiceGrid .invoiceCard table, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard table {
+    border-spacing: 0;
+    width: 100%;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_summary, .invoice .mainContainer .voucherGrid .voucherCard .field_summary, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_summary, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_summary, .invoice .mainContainer .invoiceGrid .voucherCard .field_summary, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_summary {
+    width: 25%;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_summary, .invoice .mainContainer .voucherGrid .voucherCard .field_summary, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_summary, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_summary, .invoice .mainContainer .invoiceGrid .voucherCard .field_summary, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_summary, .voucherListView .mainContainer .voucherGrid .voucherCard .field_jfmoney, .invoice .mainContainer .voucherGrid .voucherCard .field_jfmoney, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_jfmoney, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .invoice .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .voucherListView .mainContainer .voucherGrid .voucherCard .field_dfmoney, .invoice .mainContainer .voucherGrid .voucherCard .field_dfmoney, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_dfmoney, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .invoice .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .voucherListView .mainContainer .voucherGrid .voucherCard .field_subjectLongtext, .invoice .mainContainer .voucherGrid .voucherCard .field_subjectLongtext, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_subjectLongtext, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext, .invoice .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext, .voucherListView .mainContainer .voucherGrid .voucherCard .total .headline, .invoice .mainContainer .voucherGrid .voucherCard .total .headline, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .total .headline, .voucherListView .mainContainer .invoiceGrid .voucherCard .total .headline, .invoice .mainContainer .invoiceGrid .voucherCard .total .headline, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .total .headline {
+    border-left: 1px solid #f2f2f2;
+    word-break: break-all;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard table td, .invoice .mainContainer .voucherGrid .voucherCard table td, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard table td, .voucherListView .mainContainer .invoiceGrid .voucherCard table td, .invoice .mainContainer .invoiceGrid .voucherCard table td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard table td, .voucherListView .mainContainer .voucherGrid .invoiceCard table td, .invoice .mainContainer .voucherGrid .invoiceCard table td, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard table td, .voucherListView .mainContainer .invoiceGrid .invoiceCard table td, .invoice .mainContainer .invoiceGrid .invoiceCard table td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard table td {
+    border-top: 1px solid #f2f2f2;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard td, .invoice .mainContainer .voucherGrid .voucherCard td, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard td, .voucherListView .mainContainer .invoiceGrid .voucherCard td, .invoice .mainContainer .invoiceGrid .voucherCard td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard td {
+    box-sizing: border-box;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_summary, .invoice .mainContainer .voucherGrid .voucherCard .field_summary, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_summary, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_summary, .invoice .mainContainer .invoiceGrid .voucherCard .field_summary, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_summary {
+    width: 25%;
+}
+
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_subjectLongtext, .invoice .mainContainer .voucherGrid .voucherCard .field_subjectLongtext, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_subjectLongtext, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext, .invoice .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext {
+    width: 35%;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard table .textPadding, .invoice .mainContainer .voucherGrid .voucherCard table .textPadding, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard table .textPadding, .voucherListView .mainContainer .invoiceGrid .voucherCard table .textPadding, .invoice .mainContainer .invoiceGrid .voucherCard table .textPadding, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard table .textPadding, .voucherListView .mainContainer .voucherGrid .invoiceCard table .textPadding, .invoice .mainContainer .voucherGrid .invoiceCard table .textPadding, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard table .textPadding, .voucherListView .mainContainer .invoiceGrid .invoiceCard table .textPadding, .invoice .mainContainer .invoiceGrid .invoiceCard table .textPadding, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard table .textPadding {
+    padding: 0 10px;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_subjectLongtext li, .invoice .mainContainer .voucherGrid .voucherCard .field_subjectLongtext li, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_subjectLongtext li, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext li, .invoice .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext li, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_subjectLongtext li {
+    overflow: hidden;
+    width: 95%;
+    word-wrap: break-word;
+}
+.voucherListView .mainContainer .voucherGrid .vGridScroller .total .headline, .invoice .mainContainer .voucherGrid .vGridScroller .total .headline, .invoiceInputDialogPanel .mainContainer .voucherGrid .vGridScroller .total .headline, .voucherListView .mainContainer .invoiceGrid .vGridScroller .total .headline, .invoice .mainContainer .invoiceGrid .vGridScroller .total .headline, .invoiceInputDialogPanel .mainContainer .invoiceGrid .vGridScroller .total .headline, .voucherListView .mainContainer .voucherGrid .iGridScroller .total .headline, .invoice .mainContainer .voucherGrid .iGridScroller .total .headline, .invoiceInputDialogPanel .mainContainer .voucherGrid .iGridScroller .total .headline, .voucherListView .mainContainer .invoiceGrid .iGridScroller .total .headline, .invoice .mainContainer .invoiceGrid .iGridScroller .total .headline, .invoiceInputDialogPanel .mainContainer .invoiceGrid .iGridScroller .total .headline {
+    border-right: 1px solid #f2f2f2;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .total .headline span, .invoice .mainContainer .voucherGrid .voucherCard .total .headline span, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .total .headline span, .voucherListView .mainContainer .invoiceGrid .voucherCard .total .headline span, .invoice .mainContainer .invoiceGrid .voucherCard .total .headline span, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .total .headline span {
+    padding-left: 38px;
+}
+.voucherListView .mainContainer .voucherGrid .vGridScroller .total .headline span, .invoice .mainContainer .voucherGrid .vGridScroller .total .headline span, .invoiceInputDialogPanel .mainContainer .voucherGrid .vGridScroller .total .headline span, .voucherListView .mainContainer .invoiceGrid .vGridScroller .total .headline span, .invoice .mainContainer .invoiceGrid .vGridScroller .total .headline span, .invoiceInputDialogPanel .mainContainer .invoiceGrid .vGridScroller .total .headline span, .voucherListView .mainContainer .voucherGrid .iGridScroller .total .headline span, .invoice .mainContainer .voucherGrid .iGridScroller .total .headline span, .invoiceInputDialogPanel .mainContainer .voucherGrid .iGridScroller .total .headline span, .voucherListView .mainContainer .invoiceGrid .iGridScroller .total .headline span, .invoice .mainContainer .invoiceGrid .iGridScroller .total .headline span, .invoiceInputDialogPanel .mainContainer .invoiceGrid .iGridScroller .total .headline span {
+    font-weight: bold;
+    padding-left: 38px;
+}
+.voucherGrid .voucherCard .total .headline span, .invoiceGrid .invoiceCard .total .headline .marker, .invoiceInputDialogPanel .gridBody .headline .marker {
+/*     background: rgba(0, 0, 0, 0) url("themes/default/images/background.png?v=1507880572321") no-repeat scroll -122px -106px;
+ */}
+.voucherListView .mainContainer .voucherGrid .vGridScroller .total td, .invoice .mainContainer .voucherGrid .vGridScroller .total td, .invoiceInputDialogPanel .mainContainer .voucherGrid .vGridScroller .total td, .voucherListView .mainContainer .invoiceGrid .vGridScroller .total td, .invoice .mainContainer .invoiceGrid .vGridScroller .total td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .vGridScroller .total td, .voucherListView .mainContainer .voucherGrid .iGridScroller .total td, .invoice .mainContainer .voucherGrid .iGridScroller .total td, .invoiceInputDialogPanel .mainContainer .voucherGrid .iGridScroller .total td, .voucherListView .mainContainer .invoiceGrid .iGridScroller .total td, .invoice .mainContainer .invoiceGrid .iGridScroller .total td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .iGridScroller .total td {
+    background: #ebfbfd none repeat scroll 0 0;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_jfmoney, .invoice .mainContainer .voucherGrid .voucherCard .field_jfmoney, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_jfmoney, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .invoice .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_jfmoney {
+    text-align: right;
+    width: 20%;
+}
+.voucherListView .mainContainer .voucherGrid .vGridScroller .total td, .invoice .mainContainer .voucherGrid .vGridScroller .total td, .invoiceInputDialogPanel .mainContainer .voucherGrid .vGridScroller .total td, .voucherListView .mainContainer .invoiceGrid .vGridScroller .total td, .invoice .mainContainer .invoiceGrid .vGridScroller .total td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .vGridScroller .total td, .voucherListView .mainContainer .voucherGrid .iGridScroller .total td, .invoice .mainContainer .voucherGrid .iGridScroller .total td, .invoiceInputDialogPanel .mainContainer .voucherGrid .iGridScroller .total td, .voucherListView .mainContainer .invoiceGrid .iGridScroller .total td, .invoice .mainContainer .invoiceGrid .iGridScroller .total td, .invoiceInputDialogPanel .mainContainer .invoiceGrid .iGridScroller .total td {
+    background: #ebfbfd none repeat scroll 0 0;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_dfmoney, .invoice .mainContainer .voucherGrid .voucherCard .field_dfmoney, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_dfmoney, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .invoice .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_dfmoney {
+    border-right: 0 none;
+    text-align: right;
+    width: 20%;
+}
+
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_jfmoney, .invoice .mainContainer .voucherGrid .voucherCard .field_jfmoney, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_jfmoney, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .invoice .mainContainer .invoiceGrid .voucherCard .field_jfmoney, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_jfmoney {
+    text-align: right;
+    width: 20%;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard .field_dfmoney, .invoice .mainContainer .voucherGrid .voucherCard .field_dfmoney, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard .field_dfmoney, .voucherListView .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .invoice .mainContainer .invoiceGrid .voucherCard .field_dfmoney, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard .field_dfmoney {
+    border-right: 0 none;
+    text-align: right;
+    width: 20%;
+}
+.voucherListView .mainContainer .voucherGrid .voucherCard table, .invoice .mainContainer .voucherGrid .voucherCard table, .invoiceInputDialogPanel .mainContainer .voucherGrid .voucherCard table, .voucherListView .mainContainer .invoiceGrid .voucherCard table, .invoice .mainContainer .invoiceGrid .voucherCard table, .invoiceInputDialogPanel .mainContainer .invoiceGrid .voucherCard table, .voucherListView .mainContainer .voucherGrid .invoiceCard table, .invoice .mainContainer .voucherGrid .invoiceCard table, .invoiceInputDialogPanel .mainContainer .voucherGrid .invoiceCard table, .voucherListView .mainContainer .invoiceGrid .invoiceCard table, .invoice .mainContainer .invoiceGrid .invoiceCard table, .invoiceInputDialogPanel .mainContainer .invoiceGrid .invoiceCard table {
+    border-spacing: 0;
+    width: 100%;
+}
+ #appContainer {
+    background: #e7eaec none repeat scroll 0 0;
+    margin: 0 auto;
+    min-width: 1000px;
+    padding-top: 30px;
+    position: relative;
+}
+.w1280 {
+    margin: 0 auto;
+}
+.default .voucherListView .selected, .default .invoice .selected, .default .invoiceInputDialogPanel .selected {
+    background-color: #daf8c9 !important;
+}
+.monthLine .monthList li a .year {
+    background-color: #3ec8dd;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    left: -6px;
+    line-height: 8px;
+    padding: 2px 3px;
+    position: absolute;
+    top: -26px;
+}
+.dojoPage {
+    text-align: right;
+}
+.dojoPage .pageDijitContainer {
+    background-color: #ffffff;
+    display: block;
+    font-size: 12px;
+    min-height: 30px;
+    padding: 6px;
+    position: relative;
+}
+.dojoPage .pageDijitContainer .page-list-area {
+    color: #666;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.dojoPage .pageDijitContainer .page-list-area .input-wrap {
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    color: #464646;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 6px;
+    padding: 0 14px 0 3px;
+    position: relative;
+    vertical-align: middle;
+}
+.dojoPage .pageDijitContainer .page-list-area .input-wrap input {
+    border: medium none;
+    height: 19px;
+    line-height: 22px;
+    vertical-align: baseline;
+    width: 40px;
+}
+input[type="text"], input[type="password"] {
+    border-radius: 1px;
+    font-family: "Microsoft YaHei","微软雅黑","Apple LiGothic Medium ","宋体";
+    font-size: 12px;
+}
+.dojoPage .pageDijitContainer .page-list-area .input-wrap span {
+    cursor: pointer;
+    height: 18px;
+    position: absolute;
+    right: 1px;
+    top: 4px;
+    width: 10px;
+}
+.up-down-icon {
+    background: rgba(0, 0, 0, 0) url("../../img/background.png?v=1508425552523") no-repeat scroll -378px -191px;
+}
+input[type="checkbox"], input[type="radio"] {
+    line-height: normal;
+    margin: 4px 0 6px;
+}

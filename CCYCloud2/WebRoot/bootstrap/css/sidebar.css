@@ -1,0 +1,368 @@
+.siderbar_nav_color{
+	background-color: #009ef6;
+}
+.shadow{
+	box-shadow: 3px 4px 2px #D8D8D8;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #43B1F9;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#siderbar_ul>li> a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sidebar {
+	left:auto;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    background-color: #43B1F9;
+    color: #FFFFFF;
+}
+
+.col-md-2,#siderbar_ul {
+    width: 130px;
+}
+
+
+.navbar-inverse {
+    background-color: #FFFFFF;
+    border-color: #080808;
+}
+
+.
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 0 0 0 0;
+    margin-left: 166px;
+    padding: 0;
+    position: absolute;
+    width: 1215px;
+}
+.col-md-offset-2 {
+/*     margin-left: 33px;
+ */}
+.col-md-10 .main{
+	height: 400px;
+}
+.main-tabcontent{
+	height: 650px;
+	overflow: auto;
+}
+.tab-content{
+	overflow: auto;
+}
+#myTabContent{	
+	width: 1148px;
+}
+.nav-tabs>li>a{
+	color: #FFF;
+}
+#myTab>li .active >a{
+	color: #FFF;
+}
+.nav-tabs{
+	background-color: #43B1F9;
+}
+
+#myTabContent>div{
+	margin-top: 20px;
+	
+}
+.container-fluid{
+	
+	background-color: #F2F2F2;
+}
+.btn-block{
+    background: #FFFFFF none repeat scroll 0 0;
+    height: 90px;
+    width: 100%;
+}
+.row{
+	margin-bottom: 10px;
+}
+#myTab2{
+	background-color: #FAFAFA;
+}
+#myTab2 > li > a:focus, #myTab2 > li > a:hover {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #000000;
+}
+#myTab > li > a:focus, #myTab > li > a:hover {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #000000;
+}
+#myTab2 .nav-tabs{
+	background-color: #FAFAFA;
+	
+}
+#myTab2 >li >a{
+color: #000000;
+}
+#btnAddVoucher{
+	border-radius:60% ;
+	height: 75px;
+	width: 75px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	
+}
+#voucherLast{
+	text-align: center;
+	height: 260px;
+	vertical-align: middle;
+	box-shadow: 3px 4px 2px #D8D8D8;
+}
+body{
+	
+	background-color: #F2F2F2;
+}
+.usual>.row >div>button{
+	width:85%;
+	border-radius: 2px;
+}
+.row-green> div> button{
+	color: #8DD13F;
+	background-color: #FFFFFF;
+	border-color: #8DD13F;
+	border:  2px solid;
+}
+
+.row-green> div> button:hover,.row-green> div> button:focus{
+	color: #FFFFFF;
+	background-color: #8DD13F;
+	border-color: #8DD13F;
+	border:  2px solid;
+}
+.row-green> div> button:active{
+	color: #FFFFFF;
+	background-color: #8DD13F;
+	border-color: #D2EDB3;
+	border:  2px solid;
+}
+
+
+.row-blue> div> button{
+	color: #6EB9F1;
+	background-color: #FFFFFF;
+	border-color: #6EB9F1;
+	border:  2px solid;
+}
+
+.row-blue> div> button:hover,.row-blue> div> button:focus{
+	color: #FFFFFF;
+	background-color: #6EB9F1;
+	border-color: #6EB9F1;
+	border:  2px solid;
+}
+.row-blue> div> button:active{
+	color: #FFFFFF;
+	background-color: #6EB9F1;
+	border-color: #6EB9F1;
+	border:  2px solid;
+}
+
+.row .button-row> .col-md-3> button{
+
+	vertical-align: middle;
+	font-size: 20px;
+	padding: 0 16px;
+	box-shadow: 3px 4px 2px #D8D8D8;
+}
+
+.btn-voucher {color:#FF6361;}
+.btn-accounts{color:#A58AD4;}
+.btn-reports {color:#FF7F47;}
+.btn-invoice {color:#5AD1EF;}
+.btn-assets  {color:#FABC3A;}
+.btn-funds   {color:#8DD13F;}
+.btn-salary  {color:#FF4881;}
+.btn-settle  {color:#44E3A2;}
+
+#btn-voucher:hover,
+#btn-accounts:hover,
+#btn-reports:hover,
+#btn-invoice:hover,
+#btn-assets:hover,
+#btn-funds:hover,
+#btn-salary:hover,
+#btn-settle:hover,
+#btn-voucher:focus,
+#btn-accounts:focus,
+#btn-reports:focus,
+#btn-invoice:focus,
+#btn-assets:focus,
+#btn-funds:focus,
+#btn-salary:focus,
+#btn-settle:focus{
+	color: #FFFFFF;
+}
+div.panel-default{
+	box-shadow: 3px 4px 2px #D8D8D8;
+}
+
+
+#btn-voucher:hover,#btn-voucher:active,#btn-voucher:focus{
+	background-color: #FF6260;
+}
+#btn-accounts:hover,#btn-accounts:active,#btn-accounts:focus{
+	background-color: #A48AD4;
+}
+#btn-reports:hover,#btn-reports:active,#btn-reports:focus{
+	background-color: #FF7F46;
+}
+#btn-invoice:hover,#btn-invoice:active,#btn-invoice:focus{
+	background-color: #5AD0EF;
+}
+#btn-assets:hover,#btn-assets:active,#btn-assets:focus{
+	background-color: #F9BD3A;
+}
+#btn-funds:hover,#btn-funds:active,#btn-funds:focus{
+	background-color: #8ED13F;
+}
+#btn-salary:hover,#btn-salary:active,#btn-salary:focus{
+	background-color: #FF4881;
+}
+#btn-settle:hover,#btn-settle:active,#btn-settle:focus{
+	background-color: #44E3A2;
+}
+
+.btn-voucher-active,
+.btn-accounts-active,
+.btn-reports-active,
+.btn-invoice-active,
+.btn-assets-active,
+.btn-funds-active,
+.btn-salary-active,
+.btn-settle-active{
+	color: #FFFFFF;
+}
+
+
+.btn-voucher-active{
+	background-color: #FF6260;
+}
+.btn-accounts-active{
+	background-color: #A48AD4;
+}
+.btn-reports-active{
+	background-color: #FF7F46;
+}
+.btn-invoice-active{
+	background-color: #5AD0EF;
+}
+.btn-assets-active{
+	background-color: #F9BD3A;
+}
+.btn-funds-active{
+	background-color: #8ED13F;
+}
+.btn-salary-active{
+	background-color: #FF4881;
+}
+.btn-settle-active{
+	background-color: #44E3A2;
+}
+
+.text-posion{
+	display: block;
+	margin-left: 52px;
+    margin-top: -59px;
+	
+}
+
+.dropdownBooks{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.container-fluid-header{
+	background-color: #FFFFFF;
+}
+
+#books{
+	width: 210px;
+	border: 1px dotted;
+	background: #ffffff;	
+}
+.navbar-header{
+	width:85%;
+}
+.navbar-brand{
+	margin-right: 30px;
+}
+.userInfo{
+	display: block;
+	margin-top: 10px;
+}
+
+.userImage{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border: 1px dotted;
+}
+
+#myTab>li{
+	min-width: 90px;
+}
+#myTab>li>a{
+	border:none;
+	text-align: center;
+	padding-left: 20px;
+}
+#myTab>li>a>span{
+	margin-left: -17px;
+	margin-top:12px;
+	cursor: pointer;
+	position: absolute;
+	color: #D8D8D8;
+	
+}
+.container-fluid{
+	margin: 0 auto;
+	width: 1366px;
+}
+.leftmenu-sec-ul{
+	list-style: none;
+    position: fixed;
+
+    padding-top: 5px;
+    background-color: #FFFFFF;
+    padding-left: 0px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 20px #D8D8D8;
+    margin-left: 130px;
+    margin-top: -40px;
+    display: none;
+} 
+.leftmenu-sec-ul-voucher{
+}
+.leftmenu-sec-ul-accounts{
+}
+.leftmenu-sec-ul>li{
+	background-color: #FFFFFF;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.leftmenu-sec-ul>li:HOVER{
+	background-color: #F1F1F1;
+	box-shadow: 0 0 15px #D8D8D8;
+}

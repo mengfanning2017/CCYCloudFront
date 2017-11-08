@@ -1,0 +1,548 @@
+.voucher-month{
+	display: inline-block;
+    width: 100px;
+}
+.table>thead>.amount-column>th,
+.table>tbody>.amount-column>.amount-column-td-debit,
+.table>tbody>.amount-column>.amount-column-td-credit,
+.table>tfoot>.amount-column>.amount-column-td-debit,
+.table>tfoot>.amount-column>.amount-column-td-credit{
+    font-size: 15px;
+    padding: 0;
+    vertical-align: middle;
+    width: 15px;
+    border-right: none;
+    height: 60px;
+    
+}
+.table>tbody>.amount-column>.amount-column-yuan,
+.table>thead>.amount-column>.amount-column-yuan,
+.table>tfoot>.amount-column>.amount-column-yuan{
+	border-right: 2px solid #EEB9B9;
+}
+.table>tbody>.amount-column>.amount-column-thound,
+.table>thead>.amount-column>.amount-column-thound,
+.table>tfoot>.amount-column>.amount-column-thound,
+.table>tbody>.amount-column>.amount-column-million,
+.table>thead>.amount-column>.amount-column-million,
+.table>tfoot>.amount-column>.amount-column-million{
+	border-right: 2px solid #A5D9F6;
+}
+
+.voucher-page-BTN{
+	padding-right: 0;
+    text-align: right;
+}
+.newVoucher-content{
+	background-color: #FFFFFF;
+	box-shadow:0 0 15px #D8D8D8;
+	width: 95%;
+	padding: auto;
+}
+.newVoucer-pageup-down{
+	padding-top: 10px;
+	border-bottom: 1px solid #D8D8D8;
+	vertical-align: bottom;
+}
+
+.voucherHeader {
+	background: #ffffff none repeat scroll 0 0;
+	border: 1px solid #cccccc;
+	font-size: 14px;
+	height: 53px;
+	left: 12px;
+	position: absolute;
+	margin-top: 0px;
+	width: 918px;
+
+}
+
+.voucherSummary {
+    font-weight: bold;
+    height: 53px;
+    left: 0;
+    line-height: 53px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 200px;
+    padding-left:5px;
+}
+.voucherSummary>ul.voucherText{
+	text-align: left;
+	padding-left: 5px;
+}
+.voucher ul, .voucher li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.voucherSubject {
+    border-left: 1px solid #cccccc;
+    font-weight: bold;
+    height: 53px;
+    left: 200px;
+    line-height: 53px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 365px;
+}
+.voucherNumAndFC {
+    border-left: 1px solid #cccccc;
+    font-weight: bold;
+    height: 53px;
+    left: 445px;
+    line-height: 53px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 120px;
+}
+.voucherLend {
+    border-left: 1px solid #cccccc;
+    height: 60px;
+    width: 175px;
+}
+.voucherLend {
+    left: 566px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.voucherLoan {
+    border-left: 1px solid #cccccc;
+    height: 60px;
+    width: 175px;
+}
+.
+.voucherLoan {
+    left: 742px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.voucherHeader .voucherLend {
+    height: 53px;
+}
+.voucherMoneyTitle {
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.voucherMoney {
+    width: 200px;
+}
+.voucherHeader .voucherMoney li {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+.voucherMoney .firstCol {
+    border: 0 none;
+}
+.voucherMoney li {
+    border-left: 1px solid #e6e6e6;
+    font-size: 20px;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+    width: 15px;
+}
+.voucherLend li, .voucherLoan li {
+    float: left;
+}
+.voucherMoney .lineBlue {
+    border-color: #a5d9f6;
+}
+.voucherMoney .lineRed {
+    border-color: #eeb9b9;
+}
+.voucherHeader .voucherLoan {
+    height: 53px;
+}
+.voucherHeader ul{
+	list-style: none;
+}
+.voucherLend ul,.voucherLoan ul{
+	padding-left: 5px;
+}
+.voucherItem {
+    height: 60px;
+    position: relative;
+}
+.voucherItemMask {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 12;
+}
+.voucherItemMask .maskAdd {
+    background: #ffffff none repeat scroll 0 0;
+    width: 30px;
+}
+.voucherItemMask li {
+    display: block;
+    float: left;
+    height: 60px;
+}
+.voucherItemMask .maskBody {
+    background: #999999 none repeat scroll 0 0;
+    opacity: 0.1;
+    width: 920px;
+}
+.voucherItemMask .maskDel {
+    background: #ffffff none repeat scroll 0 0;
+    width: 30px;
+}
+.voucherItemNum {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    display: none;
+    left: 608px;
+    position: absolute;
+    top: 0;
+    width: 260px;
+    z-index: 15;
+}
+.voucherItemNum i {
+    border-color: transparent #ffffff transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    left: -20px;
+    line-height: 0;
+    position: absolute;
+    top: 18px;
+    width: 0;
+}
+.voucherItem .voucherAdd {
+    height: 59px;
+    padding: 0;
+    width: 30px;
+}
+.voucherItem .voucherAddBtn {
+    background: rgba(0, 0, 0, 0) url("add.png") no-repeat scroll 8px 18px;
+    cursor: pointer;
+}
+.voucherItem .voucherBtn {
+    height: 59px;
+    width: 30px;
+}
+.voucherItemNumLend>ul{
+	list-style: none;
+}
+.voucherBody {
+    bottom: 60px;
+    height: 240px;
+    left: -18px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 53px;
+}
+.voucher {
+    background-color: #ffffff;
+    color: #464646;
+    height: 355px;
+    position: relative;
+    width: 955px;;
+    margin: auto;
+}
+.voucherLoan {
+    left: 742px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.voucherRow {
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    height: 59px;
+    left: 30px;
+    position: absolute;
+    top: 2px;
+    width: 918px;
+}
+.voucherInput input {
+    border: 2px solid #4bb8f3;
+    height: 58px;
+    left: 0;
+    margin: 0;
+    outline: medium none;
+    padding: 0 3px;
+    position: absolute;
+    top: 0;
+}
+.voucherLend input, .voucherLoan input {
+    text-align: right;
+    width: 174px;
+}
+.voucherInput input {
+    border: 2px solid #3ec8dd;
+    font-size: 20px;
+}
+.voucherRow li{
+	height: 59px;
+}
+.voucher .voucherBody textarea {
+    border: 2px solid #3ec8dd;
+}
+.voucherSummaryB textarea {
+    width: 172px;
+}
+.voucherSummary textarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 2px;
+    width: 200px;
+}
+.voucherBody textarea {
+    font-size: 13px;
+    height: 59px;
+    line-height: 17px;
+    border: 2px solid #4bb8f3;
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+.voucherSubjectB textarea {
+    width: 257px;
+}
+.voucherSubject textarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 2px;
+    width: 365px;
+    background-color: transparent;
+}
+.voucherFooter {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    height: 61px;
+    left: 12px;
+    position: absolute;
+    top: 354px;
+    width: 918px;
+}
+.voucherFooter .voucherTotal {
+    font-weight: bold;
+    height: 53px;
+    line-height: 53px;
+    padding-left: 10px;
+    width: 556px;
+}
+.voucherFooter li {
+    float: left;
+}
+.voucherFooter .voucherTotal {
+    font-weight: bold;
+    height: 53px;
+    line-height: 53px;
+    padding-left: 10px;
+    width: 556px;
+}
+.voucherInput {
+    display: none;
+    height: 60px;
+    position: relative;
+}
+.popListBox .popListArea {
+    height: auto;
+    max-height: 140px;
+}
+.popListArea {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.popListBox li {
+    cursor: pointer;
+    padding: 2px 5px;
+    line-height: 30px;
+    word-break: break-all;
+}
+.popListBox .unselected {
+    background: none;
+}
+ .popListBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    display: none;
+    background: #ffffff;
+    border: 1px solid #999999;
+    z-index: 10;
+}
+.popListBox {
+    border: 1px solid #ececed;
+}
+.popListBox li {
+    cursor: pointer;
+    padding: 0 5px;
+    line-height: 30px;
+    word-break: break-all;
+    text-align: left;
+	font-size: 10px;
+	vertical-align: middle;
+	font-weight: initial;
+}
+.popListBox li:HOVER,.popListBox li:ACTIVE,.popListBox li:FOCUS{
+	background-color: #F1F1F1;
+	box-shadow: 0 0 15px #D8D8D8;
+}
+.popListBox .popListArea {
+    height: auto;
+    max-height: 140px;
+}
+.popListArea {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.voucherSubject>.voucherSubjectMoney{
+    font-size: 11px;
+    font-weight: inherit;
+    margin-left: 3px;
+    margin-top: -38px;
+    position: absolute;
+    text-decoration:underline
+}
+.voucherSubject .voucherText {
+    font-size: 12px;
+    height: 51px;
+    line-height: 17px;
+    overflow: auto;
+    padding: 4px;
+    text-align: left;
+    width: 357px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.addSubjectInVoucher{
+    cursor: pointer;
+    text-align: center;
+    color: #52c1c2;
+    border-top: 1px solid #ececed;
+    background-color: #FFFFFF;
+    height: 32px;
+    line-height: 32px;
+}
+.addSubjectInVoucher span {
+    display: inline-block;
+}
+.addSubjectInVoucher i {
+    float: left;
+    display: block;
+    margin: 8px 8px auto auto;
+    width: 16px;
+    height: 16px;
+}
+.dialog_addNewSubject{
+	display: none;
+	z-index: 9999;
+}
+.dialog_addNewSubject_body{
+	width: 300px;
+	height: 250px;
+}
+.dialog_addNewSubject_body>ul>li{
+    margin-bottom: 5px;
+    margin-left: -25px;
+    min-height: 23px;
+}
+.ac_subj_ul{
+	width: 300px;
+}
+.ac_subj_ul>li{
+	float: left;
+	min-width: 80px;
+	font-size: 11px;
+}
+.ac_subj_ul > li > span{
+    margin-top: 3px;
+}
+.ac_subj_ul>li>input[type=text]{
+	width: 170px;
+}
+.dialog_addNewSubject_body>ul{
+	padding-left: 10px;
+	width: 300px;
+}
+ul,li{
+	list-style: none;
+}
+.newSubjectTitle {
+    padding-top: 5px;
+}
+.subject_auxiliary_balance{
+	font-size: 11px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.subject_ac_balance{
+	border-top: 1px solid #d8d8d8;
+	margin-top: 6px;
+}
+.subject_ac_balance>li{
+	float: left;
+	width: 75px;
+}
+.subject_ac_balance>li>input[type=checkbox]{
+	margin-right: 5px;
+}
+.subject_currency{
+	
+}
+.first_line {
+	margin-top: 5px;
+}
+.ui-autocomplete{
+	z-index: 9999;
+}
+.error-icon{
+	color: #EF3F22;
+	display: none;
+}
+#txt_subject_type{
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+.voucherDelBtn {
+	cursor: pointer;
+    left: -2px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    background:url("remove.png") no-repeat scroll 8px 18px;
+}
+.voucherInputPanel .voucherContainer .voucherItem .voucherBtn, .voucherPreview .voucherContainer .voucherItem .voucherBtn, .voucher-dialog .voucherContainer .voucherItem .voucherBtn {
+    height: 59px;
+    width: 30px;
+}
+.voucherItem .voucherDel {
+    height: 20px;
+    left: 950px;
+    padding: 20px 5px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+
